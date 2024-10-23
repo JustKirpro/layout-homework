@@ -1,0 +1,21 @@
+:root {
+    --color-black: #232536;
+    --color-yellow: #FFD050;
+    --color-purple: #592EA9;
+    --color-dark-grey: #4C4C4C;
+    --color-medium-grey: #6D6E76;
+    --color-light-grey: #F4F4F4;
+    --color-lavender: #F4F0F8;
+    --color-light-yellow: #FBF6EA;
+    --color-white: #FFF;
+}
+
+* {
+    font-family: Sen, 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-black);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

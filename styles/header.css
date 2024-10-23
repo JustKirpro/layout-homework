@@ -1,0 +1,37 @@
+header {
+    background-color: var(--color-black);
+    padding: 20px 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotype span {
+    font-size: 36px;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px;
+}
+
+.nav-links a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.nav-links .subscribe-button {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-weight: bold;
+    min-width: 120px;
+    padding: 10px 20px;
+}
