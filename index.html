@@ -73,24 +73,28 @@
   <section class="posts">
     <div class="container">
       <h2 class="posts-title">My Posts</h2>
-      <div class="posts">
-        <div class="post">
-          <img src="assets/img/building.png" class="post-img" alt="Post 1">
-          <div class="post-content">
-            <span class="category">Business</span>
-            <h3 class="post-title">Font sizes in UI design: The complete guide to follow</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="post">
-          <img src="assets/img/people.png" class="post-img" alt="Post 2">
-          <div class="post-content">
-            <span class="category">Economy</span>
-            <h3 class="post-title">How to build rapport with your web design clients</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
+      <div class="posts-container">
       </div>
+    </div>
+  </section>
+  <section class="post-form-section">
+    <div class="post-form-container">
+      <h2 class="post-form-title">Create Post</h2>
+      <form id="postForm" class="post-form">
+        <div class="post-form-group">
+          <label for="categoryInput">Category:</label>
+          <input type="text" id="categoryInput" placeholder="Enter category" required />
+        </div>
+        <div class="post-form-group">
+          <label for="titleInput">Title:</label>
+          <input type="text" id="titleInput" placeholder="Enter title" required />
+        </div>
+        <div class="post-form-group">
+          <label for="descriptionInput">Description:</label>
+          <textarea id="descriptionInput" placeholder="Enter description" required></textarea>
+        </div>
+        <button type="submit" class="post-form-button">Save Post</button>
+      </form>
     </div>
   </section>
 </main>
@@ -137,5 +141,6 @@
     </div>
   </div>
 </footer>
+<script src="scripts/posts.js"></script>
 </body>
 </html>
